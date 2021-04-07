@@ -35,7 +35,7 @@ function cek($address){
     }
     curl_close($ch);
 
-    if(!preg_match("/No transaction/i", $result)){
+    if(preg_match("/Receipt Token/i", $result)){
         echo "Ditemukan transaksi pada address ".$address .PHP_EOL;
         ngelog($url);
     }else{
