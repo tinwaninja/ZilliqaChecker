@@ -9,6 +9,9 @@ To see transactions that exist at the Zilliqa address
 ```sh
 git clone https://github.com/tinwaninja/ZilliqaChecker.git
 cd ZilliqaChecker
+```
+Add the Zilliqa mass address to list.txt
+```sh
 php cek.php
 ```
 
